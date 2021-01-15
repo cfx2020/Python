@@ -6,7 +6,7 @@
 
 &emsp;&emsp;本文档使用[Markdown](https://zh.wikipedia.org/wiki/Markdow)编写，笔者已有 Python 基础，这次学习不过是回顾一遍，查漏补缺。写这篇文档也不期望会有谁看，大概率是记录自己的学习过程吧,不过不得不吐槽一下，Markdown 对中文的不友好，首行缩进一定要打&emsp，听说全角空格也行，但是我在 VScode 里好像不行，所幸放弃。
 
-##关于 Python
+## 关于Python
 &emsp;&emsp;Python 是一种比较简单的编程语言，可以说是目前唯一的超级语言。
 其优缺点很明显：
 
