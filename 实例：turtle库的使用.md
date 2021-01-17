@@ -34,34 +34,34 @@ turtle.mainloop() # 将窗口操作权交予用户
 
 ## turtle 库的常用函数
 
-| 函数名              | 作用        |
-| ------------------- | ----------- |
-| forward()\fd()      | 前进        |
-| backward()\bk()     | 后退        |
-| left()\lt()         | 左转        |
-| right()\rt()        | 右转        |
-| goto()\setpos()     | 定位        |
-| setx()              | 设置 x 坐标 |
-| sety()              | 设置 y 坐标 |
-| setheading()\seth() | 设置朝向    |
-| home()              | 返回原点    |
-| circle()            | 画圆        |
-| dot()               | 画点        |
-| undo()              | 撤消        |
-| speed()             | 速度        |
-| pendown()\pd()      | 画笔落下    |
-| penup()\pu()        | 画笔抬起    |
-| pensize()\width()   | 画笔粗细    |
-| pen()               | 画笔        |
-| color()             | 颜色        |
-| pencolor()          | 画笔颜色    |
-| fillcolor()         | 填充颜色    |
-| filling()           | 是否填充    |
-| begin_fill()        | 开始填充    |
-| end_fill()          | 结束填充    |
-| reset()             | 重置        |
-| clear()             | 清空        |
-| write()             | 书写        |
+| 函数名                | 作用        |
+| --------------------- | ----------- |
+| `forward()\fd()`      | 前进        |
+| `backward()\bk()`     | 后退        |
+| `left()\lt()`         | 左转        |
+| `right()\rt()`        | 右转        |
+| `goto()\setpos()`     | 定位        |
+| `setx()`              | 设置 x 坐标 |
+| `sety()`              | 设置 y 坐标 |
+| `setheading()\seth()` | 设置朝向    |
+| `home()`              | 返回原点    |
+| `circle()`            | 画圆        |
+| `dot()`               | 画点        |
+| `undo()`              | 撤消        |
+| `speed()`             | 速度        |
+| `pendown()\pd()`      | 画笔落下    |
+| `penup()\pu()`        | 画笔抬起    |
+| `pensize()\width()`   | 画笔粗细    |
+| `pen()`               | 画笔        |
+| `color()`             | 颜色        |
+| `pencolor()`          | 画笔颜色    |
+| `fillcolor()`         | 填充颜色    |
+| `filling()`           | 是否填充    |
+| `begin_fill()`        | 开始填充    |
+| `end_fill()`          | 结束填充    |
+| `reset()`             | 重置        |
+| `clear()`             | 清空        |
+| `write()`             | 书写        |
 
 > 此处仅列出常用函数，完整版请参考[Python 官方文档](https://docs.python.org/zh-cn/3.6/library/turtle.html)
 
@@ -89,6 +89,7 @@ turtle.mainloop()
 ![sun_flower](./source/sun_flower.jpg)
 
 ### 圣诞树
+
 ```Python
 from turtle import *
 import random
@@ -147,7 +148,9 @@ for i in range(200):
 
 time.sleep(60)
 ```
-![Christmas_tree](./source/Christmas_tree.jpg)
-------
+
+## ![Christmas_tree](./source/Christmas_tree.jpg)
+
 ## 结语
-&emsp;&emsp;turtle库是Python的一个非常有意思的库，闲暇无聊的时候可以使用这个库创作出很多有意思的图形，图像，也可以加深对代码的理解。
+
+&emsp;&emsp;turtle 库是 Python 的一个非常有意思的库，闲暇无聊的时候可以使用这个库创作出很多有意思的图形，图像，也可以加深对代码的理解。
